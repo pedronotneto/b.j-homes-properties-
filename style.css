@@ -1,0 +1,198 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-side img {
+    width: 50px;
+}
+
+.left-side h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* LOGO */
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* LINKS */
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+/* SEARCH BOX */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.right-side input {
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.search-box input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 7px 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO */
+.hero {
+    background: url('main\ background.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+/* LISTINGS */
+.listings {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.details {
+    padding: 40px;
+    text-align: center;
+}
+
+.details-img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: green;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.details-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.details-info {
+    max-width: 400px;
+}
+
+.buy-btn {
+    margin-top: 15px;
+}
